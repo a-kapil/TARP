@@ -1,0 +1,20 @@
+/*
+Create the processor that does the following - 
+1. Takes input data from the 'trailer with reefer comments' one drive excel sheet
+2. Takes the data from load line-up. 
+3. Suggests trailers available based on the load planning and trailer availability. 
+4. Suggests pre-cooling based on the local weather information
+
+Suggesting trailers available based on load planning - 
+Using specifications provided in the tendors
+Add a convertor that converts trailer information into specifications
+Match the trailer information with specifications
+Suggest appropriate choices
+
+Things to learn - 
+1. One drive connectivity
+2. How to convert raw data to specifications
+3. Weather API use and control based on location
+4. Excel uploading API
+*/
+

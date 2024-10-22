@@ -1,0 +1,36 @@
+.app {
+  font-family: Arial, sans-serif; /* Set a default font for the app */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f4f4f4; /* Light background color */
+  min-height: 100vh; /* Ensure the app takes at least full viewport height */
+}
+
+.navbar {
+  background-color: #333; /* Dark background for navbar */
+  padding: 15px; /* Padding for navbar */
+}
+
+.navbar-links {
+  list-style-type: none; /* Remove bullets from list */
+  display: flex; /* Use flexbox for horizontal layout */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navbar-links li {
+  margin-right: 20px; /* Space between links */
+}
+
+.nav-link {
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.nav-link:hover {
+  color: #f0a500; /* Change color on hover */
+}
+
+.main-content {
+  padding: 20px; /* Add padding for main content */
+}
